@@ -32,7 +32,23 @@
       },
       {
         "title": "zombie",
-        "img": "images/woman_zombie_3d 1.png"
+        "img": "/images/woman_zombie_3d 1.png"
+      }
+    ]
+  },
+  "Header": {
+    "socialIcon": [
+      {
+        "title": "fb",
+        "img": "/images/fb-icon.png"
+      },
+      {
+        "title": "ig",
+        "img": "/images/ig-icon.png"
+      },
+      {
+        "title": "yt",
+        "img": "/images/yt-icon.png"
       }
     ]
   }

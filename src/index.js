@@ -14,7 +14,7 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path='/' element={ <App /> } />
-        <Route path='/main' element={ <MainPage /> } />
+        <Route path='/map' element={ <MainPage /> } />
       </Routes>
     </HashRouter>
     <GlobalStyles />

@@ -52,7 +52,7 @@ export default function HomePage() {
     }
   `
   const RoleList = styled.ul`
-    bottom: -1.75rem;
+    bottom: -2.25rem;
 
     li {
       min-width: 98px;
@@ -64,7 +64,7 @@ export default function HomePage() {
   `
 
   return (
-    <section className='container-fluid vh-100 position-relative'>
+    <section className='container-fluid vh-100 position-relative overflow-hidden'>
       <div className='pt-5'>
         <LogoWrapper className='text-center mt-5'>
           <img src={URL + '/images/logo.png'} alt='logo' />
@@ -74,16 +74,16 @@ export default function HomePage() {
           <p className='mb-4 fs-4 fw-bold'>選擇查詢年份</p>
           <LinkWrapper>
             { data.Home.searchYear.map((item, i) => (
-              <a href='/main' title={`搜尋年份${item}`} key={ item + i}
+              <a href='/map' title={`搜尋年份${item}`} key={ item + i}
               className='fw-bold bg-body-secondary rounded-pill'>{ item }</a>
             ))}
           </LinkWrapper>
         </SearchWrapper>
       </div>
-      <RoleList className='d-flex overflow-hidden position-absolute'>
-        { data.Home.roles.map(item => (
-          <li className='me-5'>
-            <img src={ URL + item.img} alt={data.title}/>
+      <RoleList className='d-flex flex-nowrap position-absolute'>
+        { data.Home.roles.map((item, i) => (
+          <li className='me-5' key={ item.title + i }>
+            <img src={ URL + item.img} alt={ item.title }/>
           </li>
         ))}
       </RoleList>

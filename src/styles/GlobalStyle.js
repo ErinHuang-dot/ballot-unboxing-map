@@ -14,15 +14,12 @@ const GlobalStyles = createGlobalStyle`
     --role3: hsl(160, 58%, 58%);
   }
 
-  .u-container {
-    max-width: var(--grid-max-width);
-    padding-inline: var(--grid-gutter);
-    margin-inline: auto;
-  }
-
-  .u-grid {
-    display: grid;
-    gap: var(--grid-gutter);
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20
   }
 `
 
