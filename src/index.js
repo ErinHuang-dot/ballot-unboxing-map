@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import GlobalStyles from './styles/GlobalStyle';
 import App from './App';
 import MainPage from './page/MainPage';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import GlobalStyles from './styles/GlobalStyle';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
