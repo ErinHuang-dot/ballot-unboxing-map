@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ballot-unboxing-map/static/css/main.43e65094.css",
-    "main.js": "/ballot-unboxing-map/static/js/main.7753b8f1.js",
+    "main.js": "/ballot-unboxing-map/static/js/main.9e17437c.js",
     "static/js/787.82ff6d71.chunk.js": "/ballot-unboxing-map/static/js/787.82ff6d71.chunk.js",
     "index.html": "/ballot-unboxing-map/index.html",
     "main.43e65094.css.map": "/ballot-unboxing-map/static/css/main.43e65094.css.map",
-    "main.7753b8f1.js.map": "/ballot-unboxing-map/static/js/main.7753b8f1.js.map",
+    "main.9e17437c.js.map": "/ballot-unboxing-map/static/js/main.9e17437c.js.map",
     "787.82ff6d71.chunk.js.map": "/ballot-unboxing-map/static/js/787.82ff6d71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43e65094.css",
-    "static/js/main.7753b8f1.js"
+    "static/js/main.9e17437c.js"
   ]
 }
